@@ -1,7 +1,6 @@
 #ifndef POINT2D_H
 #define POINT2D_H
 
-#include <iostream>
 #include <cmath>
 #include <ostream>
 
@@ -17,7 +16,7 @@ class Point2D{
 
 		friend bool operator!=(const Point2D &a, const Point2D &b);
 
-		friend std::ostream&operator<<(const Point2D &out, const Point2D &p);
+		friend std::ostream& operator<<(std::ostream &out, const Point2D &p);
 
 
 
